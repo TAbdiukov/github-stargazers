@@ -68,7 +68,7 @@ def main():
 		open("INSERT_TOKEN_HERE.txt", 'a').close()
 		print("Token file not found.")
 		sys.exit(1)
-	except AssertionError, AttributeError:
+	except (AssertionError, AttributeError):
 		print("Token file is empty.")
 		sys.exit(1)
 
