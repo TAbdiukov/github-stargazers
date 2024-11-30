@@ -51,7 +51,7 @@ def fetch_user_details(users, token):
 
 def main():
 	if len(sys.argv) != 3:
-		print("Usage: python script.py <owner/repo> <output_csv>")
+		print("Usage: python stargazers.py <owner/repo> <output_csv>")
 		sys.exit(1)
 
 	owner_repo = sys.argv[1]
