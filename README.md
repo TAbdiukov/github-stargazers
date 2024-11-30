@@ -21,6 +21,7 @@ python stargazers <owner/repo> <output_csv>
 For example,
 
 ```
+python stargazers.py https://github.com/leafo/etlua etlua.txt
 python stargazers.py pjsip/pjproject pjpList1.csv
 python stargazers.py daboynb/playcurlNEXT next
 ```

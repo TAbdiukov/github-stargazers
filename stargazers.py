@@ -72,7 +72,10 @@ def main():
 		print("Token file is empty.")
 		sys.exit(1)
 
-	owner, repo = owner_repo.split('/')
+	# Correct trailing slash
+	owner_repo = owner_repo.rstrip("/")
+
+	owner, repo = owner_repo.split('/')[-2:]
 	stargazers = get_stargazers(owner, repo, token)
 	print(f"Number of stargazers found: {len(stargazers)}")
 
