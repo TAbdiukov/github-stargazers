@@ -18,3 +18,6 @@ For example,
 ```
 python stargazers.py pjsip/pjproject pjpList1.csv
 ```
+
+----------------------------------
+**Tim Abdiukov**
