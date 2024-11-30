@@ -27,5 +27,21 @@ python stargazers.py pjsip/pjproject pjpList1.csv
 python stargazers.py daboynb/playcurlNEXT next
 ```
 
+Output example,
+
+```
+login,name,email,location,blog
+silv3rness,,,,
+Justnii,,,France,
+cstogmuller,,,Austria,https://www.galaxroom.org
+MobilismHub,,,,
+atuy1219,,,Japan,
+yasalfa,,,,
+MrFobwatch,,kyacucci@student.ysu.edu,,
+datsoy,,datsoy.geud@gmail.com,,
+france97,Francesco Ferraguti,,"Modena, Italy",
+...
+```
+
 ----------------------------------
 **Tim Abdiukov**
