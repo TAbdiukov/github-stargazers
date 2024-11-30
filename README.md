@@ -22,6 +22,7 @@ For example,
 
 ```
 python stargazers.py pjsip/pjproject pjpList1.csv
+python stargazers.py daboynb/playcurlNEXT next
 ```
 
 ----------------------------------

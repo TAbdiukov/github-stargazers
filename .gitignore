@@ -162,7 +162,9 @@ cython_debug/
 #.idea/
 
 ## Repo-specific
+
 INSERT_TOKEN_HERE.txt
+
 ### No output files
 *.txt
 *.csv

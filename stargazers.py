@@ -57,7 +57,7 @@ def main():
 	owner_repo = sys.argv[1]
 	output_csv = sys.argv[2]
 
-	if not (output_csv.endswith(s) for s in [".csv", ".txt"]):
+	if not any(output_csv.lower().endswith(s) for s in [".csv", ".txt"]):
 		output_csv += ".csv"
 
 	try:
