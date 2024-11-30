@@ -7,6 +7,11 @@ Python 3.13 – Github Stargazer Scraper
 pip install -r requirements.txt
 ```
 
+## Paste API token
+
+* Obtain a classic Github API token [here](https://github.com/settings/tokens),
+* Paste it as-is to `INSERT_TOKEN_HERE.txt`
+
 ## Usage
 
 ```

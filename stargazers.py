@@ -41,10 +41,10 @@ def fetch_user_details(users, token):
 			user_data = response.json()
 			user_details.append({
 				"login": user["login"],
-				"name": user_data.get("name"),
-				"email": user_data.get("email"),
-				"location": user_data.get("location"),
-				"blog": user_data.get("blog")
+				"name": user_data.get("name", ""),
+				"email": user_data.get("email", ""),
+				"location": user_data.get("location", ""),
+				"blog": user_data.get("blog", "")
 			})
 
 	return user_details
@@ -56,6 +56,9 @@ def main():
 
 	owner_repo = sys.argv[1]
 	output_csv = sys.argv[2]
+
+	if not (output_csv.endswith(s) for s in [".csv", ".txt"]):
+		output_csv += ".csv"
 
 	try:
 		with open("INSERT_TOKEN_HERE.txt", "r") as file:
