@@ -9,13 +9,14 @@ pip install -r requirements.txt
 
 ## Paste API token
 
-* Obtain a classic Github API token [here](https://github.com/settings/tokens),
+* Obtain a classic Github API token [here](https://github.com/settings/tokens)
 * Paste it as-is to `INSERT_TOKEN_HERE.txt`
 
 ## Usage
 
 ```
 python stargazers <owner/repo> <output_csv>
+python stargazers <github_url> <output_csv>
 ```
 
 For example,
