@@ -43,5 +43,12 @@ france97,Francesco Ferraguti,,"Modena, Italy",
 ...
 ```
 
+## See also
+*My other small but snappy Python tools and automation,*
+
+* **<ins>github-stargazers</ins>** – Python 3.13 – Github Stargazer Scraper.
+* [img2pdf_helper](https://github.com/TAbdiukov/img2pdf_helper) – Simplify img2pdf configuration and usage.
+* [file-watchdog](https://github.com/TAbdiukov/file-watchdog) – Python 3.14 – file system Watchdog wrapper.
+
 ----------------------------------
 **Tim Abdiukov**
