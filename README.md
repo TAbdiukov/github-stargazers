@@ -15,8 +15,9 @@ pip install -r requirements.txt
 ## Usage
 
 ```
-python stargazers <owner/repo> <output_csv>
-python stargazers <github_url> <output_csv>
+python stargazers.py <owner/repo> <output_csv>
+python stargazers.py <github_url> <output_csv>
+python followers.py <owner> followers.csv
 ```
 
 For example,
