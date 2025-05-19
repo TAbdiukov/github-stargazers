@@ -50,12 +50,19 @@ def fetch_user_details(users, token):
 	return user_details
 
 def main():
-	if len(sys.argv) != 3:
-		print("Usage: python followers.py <github_username> <output_csv>")
+	if len(sys.argv) < 2:
+		print("Usage 1: python followers.py <github_url_or_username>")
+		print("Usage 2: python followers.py <github_url_or_username> <output_csv>")
 		sys.exit(1)
 
 	username = sys.argv[1]
-	output_csv = sys.argv[2]
+	username = username.rstrip("/")
+	username = username.split('/')[-1]
+	
+	if len(sys.argv) > 2:
+		output_csv = sys.argv[2]
+	else:
+		output_csv = username + ".csv"
 
 	if not any(output_csv.lower().endswith(s) for s in [".csv", ".txt"]):
 		output_csv += ".csv"
@@ -71,9 +78,6 @@ def main():
 	except (AssertionError, AttributeError):
 		print("Token file is empty.")
 		sys.exit(1)
-
-	username = username.rstrip("/")
-	username = username.split('/')[-1]
 
 	followers = get_followers(username, token)
 	print(f"Number of followers found: {len(followers)}")
