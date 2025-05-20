@@ -1,5 +1,10 @@
 # github-stargazers
-Python 3.13 – Github Stargazer Scraper.
+
+Python 3.13+ tools for collecting detailed user data from GitHub repositories and user profiles.
+
+- **Stargazer Scraper**: Extract GitHub users who starred a repository.
+- **Followers Scraper**: Extract detailed info of followers of a specific GitHub user.
+
 
 ## Install
 
@@ -17,10 +22,9 @@ pip install -r requirements.txt
 ```
 python stargazers.py <owner/repo> <output_csv>
 python stargazers.py <github_url> <output_csv>
-python followers.py <owner> followers.csv
 ```
 
-For example,
+Examples,
 
 ```
 python stargazers.py https://github.com/leafo/etlua etlua.txt
@@ -28,7 +32,23 @@ python stargazers.py pjsip/pjproject pjpList1.csv
 python stargazers.py daboynb/playcurlNEXT next
 ```
 
-Output example,
+## Followers Scraper
+
+```
+python followers.py <github_username_or_url>
+python followers.py <github_username_or_url> <output_csv>
+```
+
+Examples,
+
+```
+python followers.py torvalds linus_followers.csv
+python followers.py https://github.com/daboynb daboynb_followers.csv
+```
+
+If <output_csv> is omitted, it defaults to <username>.csv.
+
+## Output example,
 
 ```
 login,name,email,location,blog
