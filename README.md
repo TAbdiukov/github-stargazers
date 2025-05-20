@@ -19,6 +19,8 @@ pip install -r requirements.txt
 
 ## Usage
 
+### Stargazers Scraper
+
 ```
 python stargazers.py <owner/repo> <output_csv>
 python stargazers.py <github_url> <output_csv>
@@ -32,7 +34,7 @@ python stargazers.py pjsip/pjproject pjpList1.csv
 python stargazers.py daboynb/playcurlNEXT next
 ```
 
-## Followers Scraper
+### Followers Scraper
 
 ```
 python followers.py <github_username_or_url>
