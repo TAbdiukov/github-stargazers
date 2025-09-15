@@ -164,6 +164,7 @@ cython_debug/
 ## Repo-specific
 
 INSERT_TOKEN_HERE.txt
+./INSERT_TOKEN_HERE.txt
 
 ### No output files
 *.txt
