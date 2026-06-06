@@ -1,6 +1,6 @@
 # github-stargazers
 
-[![GitHub](https://img.shields.io/badge/GitHub-TAbdiukov/github-stargazers-black?logo=github)](https://github.com/TAbdiukov/github-stargazers)
+[![GitHub](https://img.shields.io/badge/GitHub-TAbdiukov/github--stargazers-black?logo=github)](https://github.com/TAbdiukov/github-stargazers)
 ![License](https://img.shields.io/github/license/TAbdiukov/github-stargazers)
 
 [![buymeacoffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/tabdiukov)
