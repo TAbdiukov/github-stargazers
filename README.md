@@ -1,5 +1,10 @@
 # github-stargazers
 
+[![GitHub](https://img.shields.io/badge/GitHub-TAbdiukov/github-stargazers-black?logo=github)](https://github.com/TAbdiukov/github-stargazers)
+![License](https://img.shields.io/github/license/TAbdiukov/github-stargazers)
+
+[![buymeacoffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/tabdiukov)
+
 Python 3.13+ tools for collecting detailed user data from GitHub repositories and user profiles.
 
 - **Stargazer Scraper**: Extract GitHub users who starred a repository.
